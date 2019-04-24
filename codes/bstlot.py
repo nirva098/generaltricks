@@ -46,7 +46,7 @@ class Node:
             print(self.value)
         else:
             for i in range(1,h+1):
-                print("Level",i)
+                print("Level",i, end=":")
                 self.printlevel(i)
                 print()
 
